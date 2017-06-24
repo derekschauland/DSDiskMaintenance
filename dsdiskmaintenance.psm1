@@ -24,9 +24,9 @@ function clean-oldfiles
     
     #$path = "D:\shares\profiles"
     $logpath = "C:\logs\"
-    $logname = "clean-oldfiles-$(get-date -f "MM-dd-yyyy_hh-mm-ss").log"
+    $logname = "clean-oldfiles-deleted-$(get-date -f "MM-dd-yyyy_hh-mm-ss").log"
     $fulllog = $logpath + $logname
-    $whatiflogfile = "clean-oldfiles-whatif-$(get-date -f "MM-dd-yyyy_hh-mm-ss").log"
+    $whatiflogfile = "clean-oldfiles-listing-$(get-date -f "MM-dd-yyyy_hh-mm-ss").log"
     $whatiflog = $logpath + $whatiflogfile
     
     $folders = get-childitem -path $path
