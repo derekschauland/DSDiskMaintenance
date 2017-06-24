@@ -1,0 +1,13 @@
+﻿<Project>
+  <Version>2.0</Version>
+  <FileID>6d82edd5-97ce-49c9-a8a2-42a6b7f82f43</FileID>
+  <ProjectType>1</ProjectType>
+  <Folders />
+  <Files>
+    <File Build="2">dsdiskmaintenance.psd1</File>
+    <File Build="0">dsdiskmaintenance.psm1</File>
+    <File Build="1" Shared="False">Test-Module.ps1</File>
+    <File Build="2" ReferenceFunction="Invoke-_gitignore">.gitignore</File>
+  </Files>
+  <StartupScript>F:\projects\dsdiskmaintenance\Test-Module.ps1</StartupScript>
+</Project>
